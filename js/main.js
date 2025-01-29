@@ -1,3 +1,4 @@
+
 (function ($) {
     "use strict";
 
@@ -12,6 +13,8 @@
     spinner(0);
     
     
+    // require('dotenv').config();
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -40,6 +43,7 @@
         time: 2000
     });
 
+    
 
    // Back to top button
    $(window).scroll(function () {
